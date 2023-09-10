@@ -1,0 +1,15 @@
+.options-items {
+  list-style-type: none;
+  display: flex;
+}
+.each-options-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.options-image {
+  width: 170px;
+  height: 170px;
+}

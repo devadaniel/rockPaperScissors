@@ -1,0 +1,180 @@
+.game-app-container {
+  background-color: #223a5f;
+  height: 100vh;
+  background-size: cover;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.options-score-container {
+  border: 2px solid #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .options-score-container {
+    border: 2px solid #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: 150px;
+    margin-top: 20px;
+  }
+}
+
+.options {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.score-container {
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.score-text {
+  font-size: 28px;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: 700;
+  color: #223a5f;
+}
+
+.score-count {
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #223a5f;
+  margin-top: 0px;
+}
+
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+}
+
+.rules-button {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Bree Serif';
+  color: #223a5f;
+  padding: 8px 15px 8px 15px;
+  margin: 8px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .rules-button {
+    margin-top: 60px;
+  }
+}
+.close-button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+
+.rules-image {
+  width: 90%;
+  align-self: center;
+  padding-left: 20px;
+}
+
+.popup-body-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.game-options-items {
+  padding-left: 0px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 480px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.game-win-container {
+  margin-top: 30px;
+}
+
+.win-container {
+  display: flex;
+}
+
+.you-container {
+  margin-right: 40px;
+}
+
+.you-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin-left: 50px;
+}
+.opponent-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.your-choice-image,
+.game-choice-image {
+  height: 150px;
+  width: 150px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.you-win-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.play-again-button {
+  color: #223a5f;
+  font-family: 'Bree Serif';
+  height: 40px;
+  width: 150px;
+  padding: 5px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
